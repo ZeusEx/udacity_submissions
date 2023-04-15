@@ -52,7 +52,7 @@ def test(model, test_loader, criterion, device, epoch_no, hook):
         logger.info( "\nTest set: Average loss: {:.4f}, Accuracy: {}/{} ({:.0f}%)\n".format(
             total_loss, running_corrects, len(test_loader.dataset), 100.0 * total_acc
         ))
-    print(f"Testing Accuracy: {total_acc}, Testing Loss {total_loss}")
+
 
 
 '''def train(model, train_loader, criterion, optimizer):
