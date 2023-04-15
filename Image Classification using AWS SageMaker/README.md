@@ -44,8 +44,8 @@ The following hyperparameters are used:
 
 The `hpo.py` script is used to perform hyperparameter tuning.
 
-![Hyperparameters tuning jobs](Snapshots/Hyperparameter%20tuning%20jobs.png "Hyperparameters tuning jobs") 
-![Best training job hyperparameters](Snapshots/Hyperparameter%20Tuning%20Jobs_best.png "Best training job hyperparameters")
+![Hyperparameters tuning jobs](snapshots/Hyperparameter%20tuning%20jobs.png "Hyperparameters tuning jobs") 
+![Best training job hyperparameters](snapshots/Hyperparameter%20Tuning%20Jobs_best.png "Best training job hyperparameters")
 
 Best Hyperparamters post Hyperparameter fine tuning are : 
  {'batch_size': 64, 'eps': '3.972559626859065e-09', 'lr': '0.0001471610534166238', 'weight_decay': '0.005026032640569199'}
@@ -56,12 +56,12 @@ Using the best hyperparameters, create and finetune a new model.
 
 The `train_and_deploy.py` script is used to perform model profiling and debugging.
 
-![training jobs](Snapshots/training%20jobs.png "training jobs") 
-![training jobs_final](Snapshots/training%20jobs_final.png "training jobs_final")
+![training jobs](snapshots/training%20jobs.png "training jobs") 
+![training jobs_final](snapshots/training%20jobs_final.png "training jobs_final")
 
 Cross Entropy Loss Graph
 
-![Cross Entropy Loss](Snapshots/Cross%20Entrophy%20Loss%20Graph.png "Cross Entropy Loss")
+![Cross Entropy Loss](snapshots/Cross%20Entrophy%20Loss%20Graph.png "Cross Entropy Loss")
 
 The graph shows the loss function, which measures how good the machine learning model is at making predictions. The lower the loss, the better the model. The blue line represents the training loss, which is the error calculated during training. The orange line represents the validation loss, which is the error calculated on a separate validation set that the model has not seen before. The idea is that the validation loss should follow the training loss closely, indicating that the model is not overfitting to the training set.
 
@@ -81,6 +81,6 @@ The profiler report can be found [here](profiler_report/profiler-output/profiler
 - Those images are fed to the endpoint for inference/
 - The inference is performed using both the approaches. 
 
-![End Point Deployment](Snapshots/Initialise%20End%20Point.png "End Point")
+![End Point Deployment](snapshots/Initialise%20End%20Point.png "End Point")
 
 
