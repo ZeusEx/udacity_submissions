@@ -22,7 +22,7 @@ Udacity provided the dogbreed classification dataset which can be found in the c
 In machine learning, a class refers to the set of possible values or categories that a variable or feature can take.\
 In this dataset, the class would be dog breed.\
 There are 133 dog breeds in this dataset.\
-The images of the same dog breed are segregated into 133 subfolders respectively.
+The images of the same dog breed are segregated into 133 subfolders respectively.\
 The dataset can be downloaded [here](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).
 
 ### Access
@@ -56,7 +56,7 @@ Using the best hyperparameters, create and finetune a new model.
 
 The `train_and_deploy.py` script is used to perform model profiling and debugging.
 
-![training jobs](Snapshots/20training%20jobs.png "training jobs") 
+![training jobs](Snapshots/training%20jobs.png "training jobs") 
 ![training jobs_final](Snapshots/training%20jobs_final.png "training jobs_final")
 
 Cross Entropy Loss Graph
