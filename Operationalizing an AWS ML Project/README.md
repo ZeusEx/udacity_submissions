@@ -48,38 +48,38 @@ Training and saving on EC2
 
  - download and unzip dogImages
 
-'wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip'
-'unzip dogImages.zip'
+`wget https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip`
+`unzip dogImages.zip`
 
  - create TrainedModels folder to store model
 
-'mkdir TrainedModels'
+`mkdir TrainedModels`
 
  - edit solution.py with vim program
  
-'vim solution.py'
+`vim solution.py`
  
  - activate paste
  
-':set paste'
+`:set paste`
  
- - paste code from 'ec2train1.py'
+ - paste code from `ec2train1.py`
  
  - save file and exit vim
  
-'wq!'
+`wq!`
  
  - run code
  
- 'python solution.py'
+ `python solution.py`
  
  - navigate to TrainedModels folder
  
-'cd TrainedModels'
+`cd TrainedModels`
 
  - display concents in TrainedModels folder
 
-'ls'
+`ls`
 
 ![EC2_model_deployed.png](snapshots/step2/EC2_model_deployed.png)
 
