@@ -3,7 +3,7 @@
 The purpose of this project is a machine learning classifier that reads customer behavior data when starbucks application sends to them different types of offers and classifies which type of customer respond to offer and complete it based on his age, income, and gender.
 
 
-### File Descriptions
+### Data File Descriptions
 
 #### Data Dictionary:
 
@@ -41,6 +41,18 @@ person (str) - customer id\
 time (int) - time in hours since start of test. The data begins at time t=0\
 value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-#### Files:
 
-Starbucks_Capstone_notebook.ipynb
+## 📁 Directory structure
+```
++
+|   Project Proposal.pdf
+|   Project Report.pdf
+|   README.md
+|   report.pdf
+|   Starbucks_Capstone_notebook.ipynb
+|   
+\---data
+|      portfolio.json
+       profile.json
+       transcript.json
+       
